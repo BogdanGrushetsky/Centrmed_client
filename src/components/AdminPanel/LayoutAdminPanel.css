@@ -1,0 +1,20 @@
+.LayoutAdminPanel {
+	background: var(--main-gradient);
+	padding: 40px;
+	width: 100%;
+	color: white;
+}
+
+.LayoutAdminPanel * {
+	animation: fade-in 0.3s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

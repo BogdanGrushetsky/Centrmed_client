@@ -1,0 +1,51 @@
+.Reviews {
+	position: relative;
+	border-radius: 16px;
+	background: var(--white);
+	padding: 30px 50px 30px 30px;
+	color: var(--black);
+	font-weight: 400;
+	font-size: 14px;
+	width: 48%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.Reviews__desc {
+	color: var(--gray);
+}
+
+.Reviews__dellButton {
+	position: absolute;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+}
+
+.Reviews__country {
+	margin-top: 10px;
+	color: var(--gray);
+}
+
+.Reviews__status {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+
+	gap: 20px;
+
+}
+
+.Reviews__textStatus {
+	color: #E76C37;
+
+}
+
+.Reviews__trueStatus {
+	color: var(--green);
+}

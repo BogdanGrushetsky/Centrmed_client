@@ -1,0 +1,369 @@
+.promo {
+    min-height: 105vh;
+
+}
+
+.promo_info {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 30px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: var(--color-change-standart-black);
+}
+
+.promo_info span {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.promo_about {
+    width: 600px;
+    padding-top: 160px;
+    padding-left: 120px;
+}
+
+.promo_about_title {
+    width: 550px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: var(--white);
+}
+
+.promo_about_subtitle {
+    padding-top: 20px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+.promo__buttonWrapper {
+    margin-top: 25px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo_instruction {
+    width: 50%;
+    padding-top: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.promo_instruction_title {
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: var(--white);
+}
+
+.promo_instruction_title_text {
+    margin-top: 20px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: var(--white);
+
+}
+
+.promo_about_text {
+    margin-top: 15px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.promo_center {
+    padding-top: 70px;
+    text-align: center;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+.bg_1 {
+    position: relative;
+    /* background: url(../../images/promo.png) no-repeat 30%/cover; */
+    background: url(../../images/Privet.svg) no-repeat 50%/cover;
+    background-position: 30% 70%;
+    background-size: cover;
+}
+
+.promo__bigLogo {
+    height: 40vw;
+    width: 40vw;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    stroke: var(--color-change-standart-white);
+    fill: var(--color-change-standart-white);
+}
+
+.bg_2 {
+    background: url(../../images/avg.svg) no-repeat 50%/cover;
+    min-height: 135vh;
+}
+
+.bg_3 {
+    background: url(../../images/back3.svg) no-repeat 50%/cover;
+    min-height: 100vh;
+    background-position: 30% 10%;
+}
+
+@media (max-width: 1990px) {
+    .bg_2 {
+        background-position: 50% 10%;
+        background-size: cover;
+    }
+
+    .promo__bigLogo {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .bg_1 {
+        background-position: 30% 100%;
+        background-size: cover;
+    }
+
+    .bg_3 {
+        min-height: 60vw;
+        background-position: 40% 10%;
+    }
+}
+
+@media (max-width: 1439px) {
+    .promo_instruction {
+        padding-top: 380px;
+    }
+
+    .bg_2 {
+        min-height: 100vh;
+    }
+
+    .bg_1 {
+        background-position: 30% 100%;
+        background-size: cover;
+    }
+
+    .bg_3 {
+        min-height: 100vh;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .promo_instruction {
+        padding-top: 600px;
+    }
+
+
+    .promo__bigLogo {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .bg_3 {
+        min-height: 60vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .promo_instruction {
+        padding-top: 460px;
+        width: 700px;
+        padding-bottom: 80px;
+    }
+
+    /* .bg_2 {
+        background: url(../../images/whiteSubject/Back.svg) no-repeat 50%/cover;
+    } */
+
+    .bg_3 {
+        min-height: 60vh;
+    }
+
+    .promo_info {
+        font-size: 20px;
+        width: 700px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo {
+        min-height: 95vh;
+    }
+
+    .promo_instruction_title_text {
+        margin-top: 20px;
+    }
+
+    .bg_1 {
+        background-position: 40% 100%;
+        background-size: cover;
+    }
+
+
+    .bg_2 {
+        min-height: 90vh;
+    }
+
+    .promo_about {
+        width: 60%;
+        padding-top: 50px;
+        padding-left: 80px;
+    }
+
+    .promo_about_title {
+        margin-top: 20px;
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .promo_about_subtitle {
+        font-size: 20px;
+        width: 280px;
+    }
+
+    .promo_about_btn {
+        font-size: 16px;
+        width: 160px;
+    }
+
+    .promo_info {
+        font-size: 18px;
+        width: 80%;
+        margin-left: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .promo_instruction {
+        padding-bottom: 40px;
+        width: 380px;
+        padding-top: 330px;
+    }
+
+    .promo_instruction_title {
+        font-size: 20px;
+    }
+
+    .promo_instruction_title_text {
+        font-size: 16px;
+    }
+
+    .promo_about_text {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .promo_instruction_title_text {
+        margin-top: 10px;
+    }
+
+    .promo {
+        min-height: 50vh;
+    }
+
+    .bg_2 {
+        background-position: 50% 10%;
+    }
+
+
+    .promo_about {
+        width: 260px;
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    .promo_about_btn {
+        display: none;
+    }
+
+    .promo_about_title {
+        margin-top: 10px;
+        width: 220px;
+        font-size: 16px;
+    }
+
+    .promo_about_subtitle {
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .promo_about_btn {
+        font-weight: 400;
+        font-size: 16px;
+        padding: 21px 8px;
+        width: 160px;
+    }
+
+    .promo_info {
+        width: 100%;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .promo_instruction {
+        width: 270px;
+        padding-top: 250px;
+        padding-bottom: 40px;
+    }
+
+    .promo_instruction_title {
+        text-align: left;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .promo_instruction_title_text {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .promo_about_text {
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .promo_center {
+        font-size: 26px;
+    }
+}

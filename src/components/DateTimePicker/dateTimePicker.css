@@ -1,0 +1,21 @@
+.dateTimePicker {
+    color: white;
+    margin: 0 auto;
+}
+
+.dateTimePicker_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.dateTimePicker_header span {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dateTimePicker_schedule {
+    display: flex;
+    overflow: hidden;
+}

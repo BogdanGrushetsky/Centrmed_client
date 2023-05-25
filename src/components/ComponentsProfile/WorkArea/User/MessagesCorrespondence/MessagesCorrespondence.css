@@ -1,0 +1,29 @@
+.MessagesCorrespondence {
+	padding: 30px 90px;
+	height: 80%;
+}
+
+.MessagesCorrespondence__buttonBlock {
+	width: 60%;
+}
+
+.MessagesCorrespondence__wrapperBlock {
+	display: flex;
+	justify-content: center;
+}
+
+.MessagesCorrespondence__svg {
+	margin-right: 14px;
+}
+
+
+.MessagesCorrespondence__massageWindow {
+	overflow-y: scroll;
+	height: 90%;
+}
+
+@media screen and (max-width: 980px) {
+	.MessagesCorrespondence {
+		padding: 0;
+	}
+}

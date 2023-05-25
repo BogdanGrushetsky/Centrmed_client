@@ -1,0 +1,60 @@
+.SidePanel {
+
+	width: 25vw;
+	background: #F1F1F1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 940px;
+}
+
+.SidePanel__logo {
+	margin-top: 45px;
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 20px;
+
+}
+
+.SidePanel__logoText {
+	text-shadow: none;
+	margin-left: 10px;
+}
+
+.SidePanel__logoSvg {
+	fill: var(--black);
+	stroke: var(--black);
+}
+
+.SidePanel__Ul {
+	margin-top: 30px;
+	width: 70%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.SidePanel__link {
+	display: flex;
+	align-items: center;
+	color: black;
+	font-size: 1rem;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 12px 10px;
+}
+
+.SidePanel__link.active {
+	background: var(--main-gradient);
+	color: white;
+}
+
+.SidePanel__link.active .SidePanel__svgLink {
+	fill: white;
+	stroke: white;
+}
+
+.SidePanel__svgLink {
+	margin-right: 10px;
+}

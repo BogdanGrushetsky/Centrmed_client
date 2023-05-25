@@ -1,0 +1,45 @@
+.InfoBlock {
+	padding-left: 10px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	min-height: 260px;
+}
+
+.InfoBlock__wrapperInfoBlock {
+	padding-left: 10px;
+	padding-right: 45px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+.InfoBlock__name {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.InfoBlock__specialist {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.PublicInformation__img {
+	width: 70px;
+	padding-top: 10px;
+}
+
+.InfoBlock__wrapperTitle {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 30%;
+}
+
+.InfoBlock__rate {
+	display: flex;
+}

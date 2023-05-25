@@ -1,0 +1,121 @@
+.Confirmation {
+  position: relative;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  /* background-image: url('../../../images_modals//Confirmation/confirmationDesktop.svg'); */
+  background-size: 106%;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background: var(--main-gradient);
+  border-radius: 40px;
+  padding: 30px 20px;
+}
+
+.Confirmation__title {
+  font-size: 28px;
+  line-height: 130%;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.Confirmation__inputWrapper {
+  width: 70%;
+}
+
+.Confirmation__buttonWrapper {
+  margin-top: 10px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Confirmation__closeButtonSvg {
+  width: 30px;
+  height: 30px;
+}
+
+.Confirmation__closeButtonWrapper {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  right: 10px;
+  top: 25px;
+}
+
+@media (max-width: 1000px) {
+  .Confirmation {
+    background-size: 140%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Confirmation {
+    background-size: 160%;
+  }
+
+  .Confirmation__closeButtonWrapper {
+    top: 10px;
+    right: -5px;
+  }
+
+  .Confirmation__title {
+
+    font-size: 23px;
+  }
+
+}
+
+@media (max-width: 670px) {
+  .Confirmation {
+    background-size: 180%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .AuthFree {
+    padding: 10px;
+    background-size: 220%;
+  }
+
+  .Confirmation {
+    width: 90vw;
+  }
+
+
+  .Confirmation__title {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .Confirmation {
+    background-size: 180%;
+  }
+
+  .Confirmation__closeButtonWrapper {
+    top: 10px;
+    right: -5px;
+  }
+
+  .Confirmation__title {
+    margin-top: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Confirmation {
+    background-size: 250%;
+  }
+}

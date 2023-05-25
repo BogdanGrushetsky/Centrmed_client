@@ -1,0 +1,8 @@
+.EditProfile__topUserInterface {
+	display: flex;
+	justify-content: space-between;
+}
+
+.EditProfile__titleBlock {
+	width: 48%;
+}

@@ -1,0 +1,35 @@
+.NearestVideoConsultations__blockSeachWrapperText {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.NearestVideoConsultations__blockSeachSvg {
+	stroke: var(--white);
+	width: 65px;
+	height: 65px;
+}
+
+.NearestVideoConsultations__blockSeachBlockText {
+
+	height: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.NearestVideoConsultations__videoCallWrapper {
+	max-height: 150px;
+	width: 100%;
+	overflow-y: scroll;
+	border-radius: 25px;
+	margin-bottom: 10px;
+	border: 2px solid var(--green)
+}
+
+
+@media screen and (max-width: 740px) {
+	.NearestVideoConsultations__h2 {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,136 @@
+.EditProfile {
+	color: white;
+
+}
+
+.EditProfile__titleBlock {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 0.08em;
+
+}
+
+.EditProfile__rating {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.EditProfile__imgBlock {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.EditProfile__dataEditBlock {
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.EditProfile__leftColumnDataEdit {
+	width: 48%;
+}
+
+.EditProfile__rightColumnDataEdit {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+.EditProfile__zagl {
+
+	min-height: 185px;
+}
+
+.EditProfile__showStatsBlock {
+	width: 195px;
+	height: 145px;
+	background: #FFFFFF;
+	border: 1px solid #D0D5DD;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	color: black;
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+
+
+	align-items: center;
+}
+
+.EditProfile__numberStatik {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 130%;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	display: flex;
+
+	align-items: center;
+}
+
+.EditProfile__svgStatik {
+	margin-right: 15px;
+}
+
+.EditProfile__statistikWrapper {
+	display: flex;
+}
+
+.EditProfile__prise {
+	margin-bottom: 40px;
+}
+
+.EditProfile__cheackImgBlock {
+	position: absolute;
+	bottom: 11px;
+	left: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #82E867;
+	border-radius: 25px;
+	height: 18px;
+	width: 18px;
+	border: 1.5px solid #FFFFFF;
+}
+
+.EditProfile__svgkImgBlock {
+	fill: #FFFFFF;
+	width: 12px;
+}
+
+.EditProfile__reviewWrapper {
+	overflow-y: scroll;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+	border-radius: 25px;
+	border: 2px solid var(--green);
+}
+
+.EditProfile__passBlock {
+	margin-top: 30px;
+}
+
+.EditProfile__wrapperButton {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+	width: 70%;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.EditProfile__wrapperDell {
+	position: relative;
+}

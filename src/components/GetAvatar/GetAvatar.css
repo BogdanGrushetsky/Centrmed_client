@@ -1,0 +1,22 @@
+.GetAvatar {
+	float: left;
+	border-radius: 50px;
+	object-fit: cover;
+	height: 90px;
+	width: 90px;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.GetAvatar {
+		height: 70px;
+		width: 70px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.GetAvatar {
+		height: 60px;
+		width: 60px;
+	}
+}

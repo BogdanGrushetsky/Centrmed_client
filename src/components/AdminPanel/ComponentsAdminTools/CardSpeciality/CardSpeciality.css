@@ -1,0 +1,37 @@
+.CardSpeciality {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+	width: 45%;
+	height: 75px;
+	align-items: center;
+	border-bottom: 2px solid white;
+}
+
+.CardSpeciality__svg {
+	stroke: white;
+	cursor: pointer;
+}
+
+.CardSpeciality__buttonBlockNav {
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.CardSpeciality__input {
+	padding: 10px;
+	gap: 10px;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	width: 75%;
+	padding-right: 30px;
+}
+
+.CardSpeciality__svgCheack {
+	cursor: pointer;
+	margin-left: -50px;
+	stroke: var(--green);
+	fill: var(--green);
+}

@@ -1,0 +1,11 @@
+.doc__wrapper {
+	padding: 5vw 30vw;
+	background: var(--main-gradient);
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	.doc__wrapper {
+		padding: 5vw 10vw;
+	}
+}

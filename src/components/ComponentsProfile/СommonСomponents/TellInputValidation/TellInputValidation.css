@@ -1,0 +1,50 @@
+.TellInputValidation__input {
+	border: 1px solid #D0D5DD;
+	background: #FFFFFF;
+	padding: 12px 16px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 24px;
+	text-shadow: none;
+}
+
+.TellInputValidation__input.validation {
+	border: 2px solid #EB5757;
+}
+
+.TellInputValidation::placeholder {
+	color: #667085;
+}
+
+.TellInputValidation__wrapperInput {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	height: 75px;
+}
+
+
+.TellInputValidation__text {
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+	.TellInputValidation__text {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 929px) {
+	.TellInputValidation__text {
+		margin-bottom: 2px;
+	}
+
+	.TellInputValidation__wrapperInput {
+		margin-bottom: 10px;
+	}
+}

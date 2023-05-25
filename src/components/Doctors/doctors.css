@@ -1,0 +1,11 @@
+.doctors {
+    margin-top: 30px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

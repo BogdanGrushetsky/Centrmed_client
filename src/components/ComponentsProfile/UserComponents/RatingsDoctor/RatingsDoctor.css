@@ -1,0 +1,12 @@
+.RatingsDoctor {
+	margin-left: 20px;
+}
+
+.RatingsDoctor__active {
+	fill: var(--green);
+	margin-right: 3px;
+}
+
+.RatingsDoctor__notActive {
+	margin-right: 3px;
+}

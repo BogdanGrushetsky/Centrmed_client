@@ -1,0 +1,15 @@
+.slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: black;
+    margin: 5px;
+}
+
+.slot.active {
+    background: var(--green);
+}

@@ -1,0 +1,88 @@
+.doctor {
+  margin: 10px;
+  position: relative;
+  min-width: 285px;
+  width: 45%;
+  height: 388px;
+  background-color: var(--white);
+  border-radius: 40px;
+}
+
+.doctor_logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.doctor_img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.doctor_name,
+.doctor_specialty,
+.doctor_residence,
+.doctor_activeBtn {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.doctor_name {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 150px;
+  color: var(--black);
+}
+
+.doctor_specialty {
+  color: var(--black);
+  letter-spacing: 0.08em;
+  margin-bottom: 15px;
+}
+
+.doctor_residence {
+  margin-top: 20px;
+  color: var(--gray);
+}
+
+.doctor_buttonWrapper {
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.doctor_activeBtn {
+  font-size: 16px;
+  width: 120px;
+  margin: 20px auto;
+  padding: 14px 18px;
+  background-color: #ED5B5B;
+  border-radius: 40px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 660px) {
+  .doctor {
+    min-width: 220px;
+    height: 330px;
+  }
+
+  .doctor_name {
+    margin-top: 5px;
+  }
+
+  .doctor_residence {
+    margin-top: 5px;
+  }
+
+  .doctor_img {
+    height: 110px;
+    width: 80px;
+  }
+}

@@ -1,0 +1,86 @@
+/* .Layouts {
+
+	height: 2080px;
+	padding: 5%;
+}
+
+.LayoutUsers {
+
+
+	padding: 30px 80px;
+	height: 100%;
+
+	color: white;
+	background: url('../../../../images/Backcorrect.svg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-radius: 20px;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+	.LayoutUser {
+		padding: 40px 15px;
+	}
+
+	.Layout {
+		padding: 3%;
+	}
+}
+
+@media (max-width: 600px) {
+	.LayoutUser {
+		padding: 20px 10px;
+	}
+
+	.Layout {
+		padding: 1.5%;
+		margin-bottom: 5%;
+	}
+
+	.layoutNavigation {
+		margin-top: 5px;
+	}
+
+	.layoutNavigation div {
+		font-size: 12px;
+	}
+
+	.layoutNavigation {
+		margin-right: 13px;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	.LayoutUser {
+		padding: 20px 10px;
+	}
+
+	.layoutNavigation div {
+		font-size: 11px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	.LayoutUser {
+
+		padding: 10px 8px;
+	}
+
+	.layoutNavigation div {
+		font-size: 9px;
+	}
+
+	.layoutNavigation {
+		margin-right: 8px;
+		margin-left: 5px;
+	}
+
+} */

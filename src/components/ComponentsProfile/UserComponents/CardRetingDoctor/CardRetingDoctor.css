@@ -1,0 +1,158 @@
+.CardRetingDoctor {
+	position: relative;
+	background: #FFFFFF;
+	box-shadow: 0px 36px 47px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	padding: 10px 20px;
+	display: flex;
+	margin-bottom: 10px;
+	text-shadow: none;
+
+}
+
+.CardRetingDoctor__wrapperLeftColumn {
+	display: flex;
+	align-items: center;
+	width: auto;
+}
+
+.CardRetingDoctor__name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	letter-spacing: 0.08em;
+	color: #000000;
+}
+
+.CardRetingDoctor__speciality {
+	color: var(--green);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+}
+
+.CardRetingDoctor__textWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	float: left;
+}
+
+.CardRetingDoctor__price {
+	margin-right: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #717171;
+}
+
+.CardRetingDoctor__country {
+	margin-top: 2px;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.08em;
+
+	color: #717171;
+}
+
+.CardRetingDoctor__addDoctor {
+
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	cursor: pointer;
+	color: var(--black);
+}
+
+.CardRetingDoctor__addDoctor:hover {
+	color: var(--gray);
+}
+
+.CardRetingDoctor__addDoctor:disabled {
+	color: #777683;
+}
+
+.CardRetingDoctor__svg {
+	stroke: white;
+	margin-right: 5px;
+}
+
+.CardRetingDoctor__functionalWrapper {
+	gap: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.CardRetingDoctor__rightFunctional {
+	float: right;
+}
+
+.CardRetingDoctor__buttonsWrapper {
+	gap: 20px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.CardRetingDoctor__wrapperPriceAndRate {
+	display: flex;
+	justify-content: right;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+
+	.CardRetingDoctor__buttonsWrapper {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.CardRetingDoctor__wrapperPriceAndRate {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.CardRetingDoctor__addDoctor {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.CardRetingDoctor__addDoctor {
+		font-size: 13px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.CardRetingDoctor__wrapperPriceAndRate {
+		top: 5px;
+		right: 5px;
+	}
+
+	.CardRetingDoctor {
+		padding: 8px;
+	}
+
+
+	.CardRetingDoctor__price {
+		font-size: 12px;
+		margin-right: 5px;
+	}
+
+	.CardRetingDoctor__wrapperLeftColumn {
+		margin-top: 10px;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.CardRetingDoctor__wrapperLeftColumn img {
+		margin-right: 0px;
+	}
+}

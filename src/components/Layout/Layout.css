@@ -1,0 +1,134 @@
+.Layout {
+	height: 2080px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 5%;
+	position: relative;
+	border-radius: 20px;
+	background: var(--main-gradient);
+	margin-bottom: 5%;
+	margin-top: 30px;
+
+}
+
+.LayoutUser {
+	width: 100%;
+	position: absolute;
+	top: 1px;
+	padding: 30px 80px;
+	height: 100%;
+	color: white;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.Layout__svg {
+	overflow: hidden;
+	top: 1px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: url(../../images/nahSuka.svg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	z-index: var(--change--layout);
+}
+
+.LayoutUser.black {
+	position: absolute;
+	background: url('../../images/blackSubject/с.svg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 30px 80px;
+	height: 100%;
+	color: white;
+	border-radius: 20px;
+}
+
+.LayoutUser * {
+	animation: fade-in 0.1s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+
+
+
+@media (max-width: 768px) {
+	.LayoutUser {
+		padding: 40px 15px;
+	}
+
+	.Layout {
+		margin: 3%;
+	}
+}
+
+@media (max-width: 600px) {
+	.Layout__svg {
+		width: 97.07vw;
+		border-radius: 20px;
+	}
+
+	.LayoutUser {
+		padding: 20px 10px;
+	}
+
+	.Layout {
+		margin: 1.5%;
+		margin-bottom: 5%;
+	}
+
+	.layoutNavigation {
+		margin-top: 5px;
+	}
+
+	.layoutNavigation div {
+		font-size: 12px;
+	}
+
+	.layoutNavigation {
+		margin-right: 13px;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	.LayoutUser {
+		padding: 20px 10px;
+	}
+
+	.layoutNavigation div {
+		font-size: 11px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	.LayoutUser {
+
+		padding: 10px 8px;
+	}
+
+	.layoutNavigation div {
+		font-size: 9px;
+	}
+
+	.layoutNavigation {
+		margin-right: 8px;
+		margin-left: 5px;
+	}
+
+}

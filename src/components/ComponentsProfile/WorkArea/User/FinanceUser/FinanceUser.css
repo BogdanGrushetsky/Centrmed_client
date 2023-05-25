@@ -1,0 +1,146 @@
+.FinanceUser {
+
+	padding: 20px 20px;
+}
+
+.FinanceUser__wrapperButton {
+	width: 60%;
+}
+
+.FinanceUser__wrapperBlock {
+	display: flex;
+	justify-content: center;
+}
+
+.FinanceUser__svgButton {
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+.FinanceUser__cash {
+	color: #82E867;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.FinanceUser__searchWrapper {
+	height: 60%;
+
+	padding: 0px 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.FinanceUser__finance {
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+	height: 60%;
+	background: #FFFFFF;
+	box-shadow: 0px 36px 47px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	color: white;
+	overflow-y: scroll;
+	max-height: 1450px;
+}
+
+.FinanceUser__financeNav {
+	color: black;
+	text-align: center;
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 3px solid gray;
+}
+
+.FinanceUser__ul {
+
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.FinanceUser__navDesc {
+	width: 25%;
+}
+
+.FinanceUser__li {
+	text-align: center;
+	padding: 5px 0px;
+	min-height: 40px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #82E867;
+
+}
+
+.FinanceUser__li.false {
+	background-color: #ED5B5B;
+}
+
+.FinanceUser__nav {
+	width: 15%;
+}
+
+.FinanceUser__span {
+	width: 15%;
+}
+
+.FinanceUser__spanDesc {
+	word-wrap: break-word;
+	width: 25%;
+	text-align: left;
+}
+
+
+@media (max-width: 1150px) {
+	.FinanceUser {
+		padding: 0px;
+	}
+}
+
+@media (max-width: 900px) {
+	.FinanceUser__finance {
+		font-size: 12px;
+	}
+
+	.FinanceUser__financeNav {
+
+		height: 40px;
+	}
+}
+
+@media (max-width: 760px) {
+	.FinanceUser__li {
+
+		min-height: 40px;
+	}
+
+	.FinanceUser__finance {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 500px) {
+	.FinanceUser__searchWrapper {
+		font-size: 14px;
+	}
+
+	.FinanceUser__finance {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 380px) {
+	.FinanceUser__searchWrapper {
+		font-size: 12px;
+	}
+
+	.FinanceUser__finance {
+		font-size: 8px;
+	}
+}

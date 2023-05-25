@@ -1,0 +1,139 @@
+.CardMassage {
+	position: relative;
+	padding: 5px 15px;
+	display: flex;
+	background: #FFFFFF;
+	border-radius: 16px;
+	color: #272633;
+	margin-bottom: 30px;
+	text-shadow: none;
+
+}
+
+.CardMassage__img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.CardMassage__country {
+	font-weight: 400;
+	font-size: 16px;
+	color: #667085;
+	text-shadow: none;
+	margin-bottom: 10px;
+}
+
+.CardMassage__title {
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+	text-align: center;
+	letter-spacing: 0.08em;
+	margin-bottom: 8px;
+	color: var(--black);
+	font-weight: 700;
+	font-size: 18px;
+
+}
+
+.CardMassage__wrapperText {
+
+	width: 99%;
+	display: flex;
+	flex-direction: column;
+	padding: 13px 26px;
+	align-items: flex-start
+}
+
+.CardMassage__deta {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 15px;
+}
+
+.CardMassage__text {
+	text-shadow: none;
+	width: 90%;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+	.CardMassage__deta {
+		top: 10px;
+		right: 12px;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 1030px) {
+	.CardMassage__wrapperText {
+		padding: 0;
+		padding-top: 20px;
+		padding-left: 13px;
+		padding-bottom: 13px;
+	}
+
+	.CardMassage__deta {
+		margin-right: 0px;
+		top: 20px;
+		right: 5px;
+		position: absolute;
+	}
+}
+
+
+@media screen and (max-width: 680px) {
+	.CardMassage {
+		padding: 5px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.CardMassage__title {
+		position: absolute;
+		top: 20px;
+	}
+
+	.CardMassage__deta {
+		right: -30px;
+	}
+
+	.CardMassage__wrapperText {
+		padding: 10px;
+	}
+
+	.CardMassage img {
+		float: left;
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
+	.CardMassage {
+		padding: 2px;
+	}
+
+	.CardMassage__wrapperText {
+		margin-top: 10px;
+		padding: 5px;
+	}
+
+	.CardMassage__deta {
+		right: -75px;
+		font-size: 12px;
+		top: 35px;
+	}
+
+	.CardMassage__title {
+		font-size: 14px;
+		top: 35px;
+	}
+}

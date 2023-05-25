@@ -1,0 +1,74 @@
+.CardNearestVideoConsultations {
+	position: relative;
+	padding: 10px 25px;
+	display: flex;
+	background: #FFFFFF;
+	border-radius: 16px;
+	color: #272633;
+	margin-bottom: 10px;
+	width: 100%;
+	align-items: center;
+	text-shadow: none;
+
+}
+
+.CardNearestVideoConsultations__img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.CardNearestVideoConsultations__title {
+	text-shadow: none;
+	text-align: center;
+	letter-spacing: 0.08em;
+	margin-bottom: 8px;
+	color: var(--black);
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+.CardNearestVideoConsultations__wrapperText {
+	width: 99%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px;
+	align-items: flex-start;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.CardNearestVideoConsultations__deta {
+	padding-top: 3px;
+	text-align: center;
+	color: #717171;
+	font-weight: 400;
+	font-size: 11px;
+}
+
+.CardNearestVideoConsultations__wrapperTopText {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.CardNearestVideoConsultations__strong {
+	color: #ED5B5B
+}
+
+@media (max-width: 1080px) {
+	.CardNearestVideoConsultations__wrapperText {
+
+		padding: 0;
+	}
+}
+
+@media (max-width: 1080px) {
+	.CardNearestVideoConsultations__wrapperText {
+
+		padding: 0;
+	}
+}

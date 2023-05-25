@@ -1,0 +1,29 @@
+.AvatarLoader__avatarWrapper {
+	height: 10%;
+}
+
+.AvatarLoader__img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	object-fit: cover;
+}
+
+
+.AvatarLoader__inputAvatar {
+	display: none;
+}
+
+.AvatarLoader__labelAvatar {
+	position: relative;
+	cursor: pointer;
+}
+
+.AvatarLoader__svgButton {
+	transform: rotate(45deg);
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	height: 20px;
+	width: 20px;
+}

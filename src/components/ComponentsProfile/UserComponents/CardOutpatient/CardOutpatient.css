@@ -1,0 +1,75 @@
+.CardOutpatient {
+	background-color: #FFFFFF;
+	box-shadow: 0px 36px 47px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50%;
+	max-height: 1100px;
+	text-shadow: none;
+}
+
+.CardOutpatient__tablNav {
+	border-bottom: 2px solid gray;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+	text-align: center;
+}
+
+.CardOutpatient__nav {
+	width: 15%;
+
+}
+
+.CardOutpatient__ul {
+	padding: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+	list-style: none;
+}
+
+.CardOutpatient__li {
+	width: 15%;
+}
+
+.CardOutpatient__libutton {
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.CardOutpatient__nameSvg {
+	margin-right: 15px;
+}
+
+@media (max-width: 850px) {
+	.CardOutpatient {
+		max-height: 900px;
+	}
+}
+
+@media (max-width: 660px) {
+	.CardOutpatient {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 550px) {
+	.CardOutpatient {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 400px) {
+	.CardOutpatient {
+		font-size: 9px;
+	}
+}

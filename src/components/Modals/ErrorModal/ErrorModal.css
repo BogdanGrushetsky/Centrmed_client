@@ -1,0 +1,57 @@
+.ErrorModal__wrapper {
+	left: 20%;
+	right: 20%;
+	position: absolute;
+	margin-top: 20px;
+}
+
+.ErrorModal__content {
+	display: flex;
+	gap: 20px;
+	background-color: var(--white);
+	padding: 20px 30px;
+	border-radius: 20px;
+}
+
+.ErrorModal__wrapperText {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.ErrorModal__title {
+	font-weight: 700;
+	font-size: 26px;
+	color: var(--red);
+}
+
+.ErrorModal__close {
+	margin-left: auto;
+	stroke: black;
+}
+
+.ErrorModal__wrapper {
+	animation-name: slideFromTop;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes slideFromTop {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 800px) {
+	.ErrorModal__title {
+		font-size: 16px;
+	}
+
+
+}

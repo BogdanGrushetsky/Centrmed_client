@@ -1,0 +1,72 @@
+.OutpatientСard {
+	padding: 20px 20px;
+}
+
+
+.OutpatientСard__buttonWrapper {
+	width: 50%;
+}
+
+.OutpatientСard__svg {
+	margin-right: 10px;
+}
+
+.OutpatientСard__buttonCenter {
+	display: flex;
+	justify-content: center;
+}
+
+.OutpatientСard__block {
+	display: flex;
+	width: 550px;
+	justify-content: space-between;
+}
+
+.OutpatientСard__button {
+	width: 250px;
+}
+
+.OutpatientСard__svg {
+	margin-left: 5px;
+}
+
+.OutpatientСard__wrapperSearchBlock {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.OutpatientСard__blockButtonWrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media (max-width: 850px) {
+	.OutpatientСard__wrapperSearchBlock {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 680px) {
+	.OutpatientСard {
+		padding: 0;
+	}
+
+	.OutpatientСard__block {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.OutpatientСard__button {
+
+		width: 49%;
+	}
+}
+
+@media (max-width: 550px) {
+	.OutpatientСard__svg {
+		width: 15px;
+		margin-left: 3px;
+	}
+}

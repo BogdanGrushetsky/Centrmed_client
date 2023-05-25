@@ -1,0 +1,15 @@
+.ReviewBlock {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	overflow-y: scroll;
+	max-height: 40%;
+	padding-bottom: 30px;
+
+}
+
+.ReviewBlock__noRevie {
+	margin-top: 10%;
+	margin-right: 40%;
+	margin-left: 40%;
+}

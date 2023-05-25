@@ -1,0 +1,35 @@
+.AllUserList__wrapperButton {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+.AllUserList__button {
+	cursor: pointer;
+	padding: 14px 18px;
+	border: none;
+	width: 50%;
+	height: 100%;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000000;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	transition: 0.5s ease-in-out;
+}
+
+.AllUserList__button.left {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.AllUserList__button.active {
+	background: var(--green);
+	color: var(--white);
+}

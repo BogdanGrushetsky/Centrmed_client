@@ -1,0 +1,19 @@
+.SpecialityBlock {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	background: var(--main-gradient);
+	border-radius: 16px;
+	flex-wrap: wrap;
+	padding: 12px 20px;
+	color: white;
+	margin-right: 20px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.SpecialityBlock.main {
+	background: var(--green);
+}

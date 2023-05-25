@@ -1,0 +1,11 @@
+.TitleActiveBlock {
+	letter-spacing: 0.08em;
+	text-decoration-line: underline;
+
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

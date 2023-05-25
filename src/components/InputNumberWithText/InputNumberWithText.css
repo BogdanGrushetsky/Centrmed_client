@@ -1,0 +1,53 @@
+.InputMoney__input {
+	width: 120px;
+	border: 1px solid #D0D5DD;
+	background: #FFFFFF;
+	padding: 12px 10px;
+	padding-right: 60px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 24px;
+	text-shadow: none;
+}
+
+
+
+.InputMoney__input::placeholder {
+	color: #667085;
+}
+
+
+.InputMoney__wrapperInput {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	height: 75px;
+}
+
+
+.InputMoney__title {
+	height: 50px;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.InputMoney__text {
+	position: absolute;
+	bottom: 14px;
+	left: 60px;
+	color: #667085;
+}
+
+
+
+@media (max-width: 768px) {
+	.InputMoney__text {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 940px) {}

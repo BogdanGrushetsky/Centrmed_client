@@ -1,0 +1,50 @@
+.ShowFileDoctor__img {
+	filter: grayscale(80%);
+	width: 90px;
+	height: 110px;
+
+}
+
+
+
+.ShowFileDoctor__svg {
+	width: 45px;
+	height: 45px;
+}
+
+
+
+.ShowFileDoctor__wrapperImg {
+	position: relative;
+	padding: 5px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.ShowFileDoctor__Wrapper {
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.ShowFileDoctor__dellButton {
+	position: absolute;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	right: 3px;
+	top: 3px;
+}
+
+.ShowFileDoctor__addButton {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	transform: rotate(45deg);
+}

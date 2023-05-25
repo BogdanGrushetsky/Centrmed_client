@@ -1,0 +1,103 @@
+.MyDoctorCard {
+	position: relative;
+	background: #FFFFFF;
+	box-shadow: 0px 36px 47px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	padding: 13px 20px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.MyDoctorCard__img {
+	margin-right: 10px;
+	width: 54px;
+	height: 54px;
+}
+
+.MyDoctorCard__name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	letter-spacing: 0.08em;
+	color: #000000;
+}
+
+.MyDoctorCard__speciality {
+	color: var(--green);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+}
+
+.MyDoctorCard__Button {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	height: 25px;
+	width: 25px;
+}
+
+.MyDoctorCard__price {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #717171;
+}
+
+.MyDoctorCard__textWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.MyDoctorCard__country {
+	margin-top: 2px;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.08em;
+
+	color: #717171;
+}
+
+@media screen and (max-width: 480px) {
+	.MyDoctorCard {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.MyDoctorCard__img {
+		height: 90px;
+		width: 90px;
+	}
+
+	.MyDoctorCard__textWrapper {
+		width: 100%;
+		align-items: center;
+	}
+
+	.MyDoctorCard__price {
+		margin-top: 10px;
+		position: static;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.MyDoctorCard__price {
+		bottom: 6px;
+		font-size: 10px;
+	}
+
+	.MyDoctorCard__name {
+		font-size: 15px;
+	}
+
+	.MyDoctorCard__speciality {
+		font-size: 13px;
+		padding-bottom: 8px;
+	}
+}

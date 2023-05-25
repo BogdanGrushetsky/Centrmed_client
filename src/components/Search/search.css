@@ -1,0 +1,7 @@
+.search {
+    width: 90vw;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 60px;
+    background: url(../../images/search_bg.png) no-repeat 60%/cover;
+}

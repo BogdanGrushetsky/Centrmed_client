@@ -1,0 +1,42 @@
+.CardAdminPanel__wrapperModal {
+	right: 1px;
+	top: 60px;
+	background: var(--main-gradient);
+	border-radius: 16px;
+	width: 269px;
+	height: 136px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	padding: 15px 5px 15px 5px;
+	text-align: center;
+
+}
+
+.CardAdminPanel__svgDell {
+	cursor: pointer;
+	margin-left: 85%;
+}
+
+.CardAdminPanel__wrapperButtons {
+	margin-top: 10px;
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.CardAdminPanel__button {
+	width: 80px;
+	height: 39px;
+	font-weight: 400;
+	font-size: 20px;
+	border-radius: 40px;
+	border: 0;
+	background: var(--main-gradient);
+	color: white;
+}
+
+.CardAdminPanel__button.left {
+	background: #ED5B5B;
+}

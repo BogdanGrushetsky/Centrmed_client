@@ -1,0 +1,6 @@
+.ListConsultation__wrapperCard {
+	overflow-y: scroll;
+	height: 65%;
+	margin-top: 35px;
+	border-radius: 25px;
+}

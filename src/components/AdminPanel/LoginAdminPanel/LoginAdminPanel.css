@@ -1,0 +1,31 @@
+.LoginAdminPanel__WrapperPage {
+	width: 100%;
+	height: 100vh;
+	background: var(--main-gradient);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.LoginAdminPanel__logo {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	color: white;
+	border-radius: 20px;
+	background: var(--main-gradient);
+}
+
+
+
+.LoginAdminPanel__forma {
+	width: 30%;
+	height: 60%;
+	padding: 50px;
+	border-radius: 25px;
+	background: var(--white);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}

@@ -1,0 +1,10 @@
+.EditProfileUser__wrapperButton {
+	display: flex;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.EditProfileUser__deleteButton {
+	width: 100%;
+	position: relative;
+}

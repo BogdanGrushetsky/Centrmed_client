@@ -1,0 +1,47 @@
+.TogleBlock__button {
+	border-radius: 16px;
+
+	width: 180px;
+	height: 39px;
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+	background: #272633;
+	border: none;
+	margin-bottom: 30px;
+
+}
+
+.TogleBlock__wrapper {
+	width: 380px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.TogleBlock__button.active {
+	background: #ED5B5B;
+}
+
+@media screen and (max-width: 980px) {
+	.TogleBlock__button {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.TogleBlock__wrapper {
+		width: 80%;
+	}
+
+	.TogleBlock__button {
+		width: 40%;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.TogleBlock__button {
+		width: 50%;
+		font-size: 10px;
+	}
+}

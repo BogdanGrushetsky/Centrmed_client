@@ -1,0 +1,92 @@
+.ProfileUser__title {
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 0.08em;
+	line-height: 130%;
+}
+
+.ProfileUser {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ProfileUser__formWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ProfileUser__LeftColumn {
+	width: 40%;
+}
+
+.ProfileUser__rightColumn {
+	width: 40%;
+}
+
+.ProfileUser__text {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.ProfileUser__textPass {
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.ProfileUser__textArea {
+	height: 80%;
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #D0D5DD;
+	padding: 12px 16px 90px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	margin-bottom: 20px;
+	resize: none;
+	margin-top: 8px;
+}
+
+
+
+.ProfileUser__wrapperFile {
+	height: 33%;
+}
+
+.ProfileUser__buttomWrapper {
+	margin-top: 20px;
+	width: 200px;
+}
+
+
+@media (max-width: 768px) {
+	.ProfileUser__formWrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ProfileUser__LeftColumn {
+		width: 90%;
+	}
+
+	.ProfileUser__rightColumn {
+		margin-top: 20px;
+		width: 90%;
+	}
+
+	.ProfileUser__wrapperFile {
+		height: 200px;
+	}
+
+	.ProfileUser__textPass {
+		font-size: 15px;
+	}
+
+	.ProfileUser__text {
+		font-size: 15px;
+	}
+}

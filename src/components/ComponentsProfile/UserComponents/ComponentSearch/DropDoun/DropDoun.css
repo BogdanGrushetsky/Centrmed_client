@@ -1,0 +1,118 @@
+.DropDoun {
+	position: relative;
+	padding: 5px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 400;
+	text-align: left;
+	align-items: center;
+	padding: 12px 16px;
+	text-shadow: none;
+}
+
+.DropDoun__list {
+	left: 5px;
+	padding-top: 12px;
+	position: absolute;
+	box-shadow: 1px 36px 47px rgba(0, 0, 0, 1);
+	width: 99%;
+	overflow-y: scroll;
+	max-height: 300px;
+	list-style-type: none;
+	z-index: 2;
+}
+
+.DropDoun__itemList {
+
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.DropDoun__buttonList {
+	z-index: 3;
+	text-align: left;
+	padding: 10px;
+	border: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	width: 100%;
+	background: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDoun__buttonList span {
+	text-shadow: none;
+}
+
+.DropDoun__searchTextBlock {
+	display: flex;
+	align-items: center;
+}
+
+.DropDoun__searchTextLeftSvg {
+	margin-right: 10px;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.DropDoun__searchText {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+
+}
+
+.DropDoun__buttonList:hover {
+
+	background: var(--main-gradient);
+	color: white;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 900px) {
+	.DropDoun__searchText {
+		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.DropDoun__itemList {
+
+		width: 95%;
+	}
+
+	.DropDoun__buttonList {
+		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 390px) {
+	.DropDoun__itemList {
+
+		width: 90%;
+	}
+}
+
+@media (max-width: 450px) {
+	.DropDoun__searchText {
+		font-size: 12px;
+	}
+
+	.DropDoun__buttonList {
+		font-size: 12px;
+	}
+}

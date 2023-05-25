@@ -1,0 +1,72 @@
+.reserve {
+    background: var(--main-gradient--no--opacity);
+    border-radius: 25px;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: -150px;
+    border-radius: 40px;
+    padding-bottom: 40px;
+}
+
+.reserve_title {
+    padding-top: 20px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.reserve_main {
+    display: flex;
+}
+
+
+@media (max-width: 1439px) {}
+
+@media (max-width: 1200px) {
+    .reserve {
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .reserve {
+        width: 100vw;
+        margin: 0 auto;
+        height: 1050px;
+    }
+
+}
+
+@media (max-width: 658px) {
+    .reserve {
+        width: 105vw;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .reserve {
+        border-radius: 60px;
+        width: 340px;
+        margin: 0 auto;
+        height: 1100px;
+    }
+
+    .reserve_main {
+        padding-left: 20px;
+    }
+
+    .dateTimePicker_schedule {
+        width: 265px;
+        overflow-x: hidden;
+    }
+}

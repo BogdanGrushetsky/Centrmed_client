@@ -1,0 +1,177 @@
+.Forma {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Forma__numberInputWrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.Forma__formWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Forma__LeftColumn {
+	width: 40%;
+}
+
+.Forma__sucsessSend {
+	color: var(--main-gradient);
+}
+
+.Forma__rightColumn {
+	width: 40%;
+}
+
+.Forma__text {
+	display: flex;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.Forma__textPass {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.Forma__buttomWrapperPassword {
+	width: 60%;
+}
+
+.Forma__wrapperFile {
+
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.Forma__validationError {
+	width: 50%;
+	background: #FFFFFF;
+	border-radius: 6px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ED5B5B;
+	text-align: center;
+	font-size: 12px;
+	line-height: 15px;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Forma__redText {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ED5B5B;
+	font-weight: 300;
+}
+
+.Forma__textArea {
+	height: 80%;
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #D0D5DD;
+	padding: 12px 16px 90px;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	margin-bottom: 20px;
+	resize: none;
+	margin-top: 8px;
+}
+
+.Forma__li {
+	margin-top: 10px;
+}
+
+
+.Forma__buttomWrapper {
+	margin-top: 10px;
+	width: 30%;
+}
+
+.Forma__wrapperdiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Forma__specialist {
+	background: #82E867;
+	border-radius: 16px;
+	padding: 12px 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+.Forma__wrapperSpecialist {
+	display: flex;
+}
+
+
+
+.Forma__svgCheakBlock {
+	height: 18px;
+	width: 18px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.Forma__textCheakBlock {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 940px) {
+	.Forma__wrapperFile {
+		margin-bottom: 5px;
+	}
+
+	.Forma__textPass {
+		margin-bottom: 10px;
+	}
+
+	.Forma__formWrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Forma__LeftColumn {
+		width: 90%;
+	}
+
+	.Forma__rightColumn {
+		margin-top: 20px;
+		width: 90%;
+	}
+
+	.Forma__li {
+		font-size: 12px;
+		margin-top: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.Forma__textPass {
+		font-size: 15px;
+	}
+
+	.Forma__text {
+		font-size: 15px;
+	}
+
+	.Forma__wrapperdiv {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.Forma__validationError {
+		width: 65%;
+	}
+}

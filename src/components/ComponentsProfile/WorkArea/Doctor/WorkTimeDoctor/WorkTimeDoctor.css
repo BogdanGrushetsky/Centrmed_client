@@ -1,0 +1,65 @@
+.WorkTimeDoctor {
+	margin-top: 30px;
+	display: flex;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 130%;
+	flex-direction: column;
+}
+
+.WorkTimeDoctor__nameHeader {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.WorkTimeDoctor__wrapper {
+	margin-left: 10vw;
+	margin-right: 18vw;
+}
+
+.WorkTimeDoctor__title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 130%;
+	text-decoration-line: underline;
+	margin-top: 30px;
+}
+
+.WorkTimeDoctor__num {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 130%;
+}
+
+.WorkTimeDoctor__cheackWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	margin-bottom: 30px;
+}
+
+.WorkTimeDoctor__moneyWrapper {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.WorkTimeDoctor__wrapperButton {
+	display: flex;
+	gap: 30px;
+
+}
+
+.WorkTimeDoctor__redButtonWrapper {
+	width: 40%;
+}
+
+@media (max-width: 1000px) {
+	.WorkTimeDoctor__wrapper {
+		margin: 0;
+	}
+}

@@ -1,0 +1,163 @@
+.Registration {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.Registration__cheackWrapper {
+  padding: 0 10px;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Registration__cheackWrapper.validation {
+  color: var(--red);
+
+}
+
+.Registration__cheackWrapper a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+.Registration__form {
+  width: 50%;
+
+}
+
+.Registration__line {
+  width: 0;
+  height: 35%;
+  border: 1px solid var(--white);
+}
+
+.Registration__separator {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Registration__or-text {
+  width: 37px;
+  height: 20px;
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--white);
+}
+
+.Registration__help {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Registration__helpTitle {
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.Registration__buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 60%;
+  gap: 30px;
+  align-items: center;
+}
+
+.Registration__iconButton {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+
+
+@media (max-width: 1100px) {
+  .Registration__helpTitle {
+    font-size: 16px;
+  }
+
+  .Registration__buttonWrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .Registration__cheackWrapper {
+    margin-top: 5px;
+    position: absolute;
+    top: 52%;
+  }
+
+  .Registration {
+    margin-bottom: 10px;
+  }
+
+  .Registration__form {
+    margin-bottom: 60px;
+    width: 80%;
+  }
+
+  .Registration__line {
+    display: none;
+  }
+
+  .Registration {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Registration__buttonWrapper {
+    width: 60%;
+
+  }
+
+  .Registration__separator {
+
+    margin-top: 90px;
+    margin-bottom: 10px;
+  }
+
+  .Registration__help {
+    width: 100%;
+
+  }
+
+  .Registration__plug {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+@media (max-width: 390px) {
+  .Registration__cheackWrapper span {
+    font-size: 11px;
+  }
+
+  .Registration {
+    flex-direction: column;
+  }
+}

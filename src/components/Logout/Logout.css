@@ -1,0 +1,14 @@
+.Logout {
+	cursor: pointer;
+	gap: 8px;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 576px) {
+	.Logout {
+		gap: 5px;
+		font-size: 15px;
+
+	}
+}
